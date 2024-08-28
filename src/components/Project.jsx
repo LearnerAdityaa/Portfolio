@@ -1,6 +1,6 @@
 import React from "react";
-import AAJAPADHAI from "../assets/aajapadhai.webp";
-import Rent from "../assets/rent.webp";
+import AAJAPADHAI from "../assets/Aajapadhai.webp";
+import Rent from "../assets/Rent.webp";
 import Weather from "../assets/Weather.png";
 const Projects = [
   {
