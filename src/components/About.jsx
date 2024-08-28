@@ -1,5 +1,5 @@
 import React from "react";
-import AboutIamge from "../assets/About.jpg";
+import AboutIamge from "../assets/about.jpg";
 function About() {
   return (
     <div className="bg-black text-white py-20" id="about">
