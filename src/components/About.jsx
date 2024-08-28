@@ -1,5 +1,6 @@
 import React from "react";
-import AboutIamge from "../assets/About.jpg";
+import AboutImage from "../assets/About.jpg"; // Adjust the path as needed
+
 function About() {
   return (
     <div className="bg-black text-white py-20" id="about">
