@@ -19,3 +19,49 @@
 .name:hover {
   transform: translateY(-5px);
 }
+
+/* Navbar.css */
+
+/* Basic Navbar Styling */
+nav {
+  position: relative; /* Necessary for absolute positioning of the mobile menu */
+}
+
+/* Hide the mobile menu by default */
+nav .space-x-6 {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Show menu button on small screens */
+button.md\\:hidden {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Responsive menu for mobile devices */
+@media (max-width: 768px) {
+  nav .space-x-6 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: black;
+    top: 100%;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav .space-x-6 a {
+    display: block; /* Stacked links for mobile */
+    margin: 8px 0;  /* Spacing between links */
+  }
+
+  nav .md\\:inline {
+    display: none; /* Hide the inline Contact Me button on small screens */
+  }
+}
+
