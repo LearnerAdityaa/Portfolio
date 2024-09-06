@@ -41,7 +41,7 @@ function Conatct() {
             <div className="mb-4 mt-3">
               <FaEnvelope className="inline-block text-green-400 mr-2"></FaEnvelope>
               <a
-                href="mailto:youremail@example.com"
+                href="mailto:revengeforcoc.com"
                 className="hover:underline"
               >
                 revengeforcoc@gmail.com
